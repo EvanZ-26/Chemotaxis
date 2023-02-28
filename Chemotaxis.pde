@@ -2,7 +2,7 @@ Thing [] thingArray;
  void setup()   
  {    
    size(500,500);
-   thingArray = new Thing [100];
+   thingArray = new Thing [200];
    for (int i = 0; i < thingArray.length; i+=1){
      thingArray[i] = new Thing();
    }
